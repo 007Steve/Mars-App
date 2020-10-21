@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   background-color: rgb(65, 56, 44);
+   color:white
+}
+
+/** Nav Section **/
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-image{
+    height: 50px;
+}
+
+.nav-ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.nav-links{
+    margin-right: 10px;
+}
+
+/** Main Section **/
