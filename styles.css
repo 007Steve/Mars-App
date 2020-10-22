@@ -1,31 +1,127 @@
-*{
-    margin: 0;
-    padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Oxygen:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
 }
-body{
-   background-color: rgb(65, 56, 44);
-   color:white
+body {
+  background-color: rgb(0, 0, 0);
+  background-image: url("https://i.ytimg.com/vi/dqoHcfMn6Ck/maxresdefault.jpg");
+  color: white;
 }
 
 /** Nav Section **/
 
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
 }
-.nav-image{
-    height: 50px;
-}
-
-.nav-ul{
-    display: flex;
-    list-style: none;
-    justify-content: space-around;
+.nav-image {
+    width: 10%;
+    margin-left: 30px;
 }
 
-.nav-links{
-    margin-right: 10px;
+.nav-ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
+
+.nav-links {
+  padding: 20px;
+  font-size: 24px;
+  font-weight: 100;
+  
+  cursor: pointer;
+}
+.nav-h1{
+    font-size: 40px;
+    font-weight: 100;
+    margin-left: 70px;
 }
 
 /** Main Section **/
+
+.main {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  margin-top: 8%;
+ 
+}
+
+.main-rover-container {
+  margin: 0;
+}
+#rover {
+  height: 300px;
+  width: 400px;
+}
+.main-rover-info {
+   
+  margin-left: 70px;
+  text-align: left;
+  margin-top: 93px;
+}
+.rover-info-h2 {
+  font-size: 30px;
+}
+.rover-info-p {
+  font-size: 15px;
+  color: rgb(248, 161, 0);
+}
+.main-mars-container {
+  flex: 1;
+  min-width: 50%;
+  position: relative;
+  bottom:  100px;
+}
+model-viewer {
+  width: 100%;
+  height: 600px;
+}
+span {
+  position: absolute;
+  text-align: center;
+  font-size: 140px;
+  font-weight: 100;
+  letter-spacing: 50px;
+  top: 60%;
+  left: 12%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.main-planet-info {
+  text-align: right;
+  padding: 30px;
+  font-size: 20px;
+}
+
+.main-planet-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-right: 20px;
+  margin-left: 120px;
+}
+
+.planet-info-title {
+    font-size: 30px;
+  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.planet-info-texts {
+  font-weight: 300;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(248, 161, 0);
+}
+
+.planet-data{
+color: crimson;
+}
+
